@@ -1,5 +1,5 @@
 configuracion:
-   texto: Configurando entorno de Desarrollo
-      autor:
-         nombre: Sandra Sandra
-         email: sandra1705@gmail.com
+  texto: Configurando entorno de Desarrollo
+    autor:
+      nombre: Sandra Sandra
+      email: sandra1705@gmail.com
