@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_springboot_cloud
+    username: root
+    password: Orion24
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+#configuracion para probar nuestra app, no es para prod. Nuestro mciro generara de forma automatica las tablas.
+    hibernate:
+      ddl-auto: create
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
